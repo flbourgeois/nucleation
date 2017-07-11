@@ -19,11 +19,10 @@ nucl.m <- function (nboot=1000, npoints_interp=100, origin, m, k0, k, filename_i
   # Derni?re mise ? jour: 17.03.2017
   # Nom script R: Nucleation_Regression.R
   #######################################################
-  # Packages requis (pour importation lors du chargement du package)
-  ##' @import GenSA
-  ##' @import minpack.lm
-  ##' @import truncdist
-  ##' @import neldermead
+  # Dependencies
+  ##' @importFrom minpack.lm nls.lm
+  ##' @importFrom GenSA GenSA
+  ##' @importFrom neldermead fminbnd
   #######################################################
   # Arguments d'entr?e:
   # -------------------
@@ -52,7 +51,6 @@ nucl.m <- function (nboot=1000, npoints_interp=100, origin, m, k0, k, filename_i
   # Arguments de sortie:
   # --------------------
   ##' @return None
-  # Approche:
   # ---------
   ##' @usage
   ##'
@@ -66,7 +64,6 @@ nucl.m <- function (nboot=1000, npoints_interp=100, origin, m, k0, k, filename_i
   ## Les librairies
   library("minpack.lm")
   library("GenSA")
-  library("truncdist")
   library("neldermead")
 
   # Nettoyage de la console
