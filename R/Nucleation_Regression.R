@@ -11,8 +11,9 @@ nucl.m <- function (nboot=1000, npoints_interp=100, origin, m, k0, k, filename_i
   ##' \cr The function outputs the results in filename_in_nboot.csv.
   ######################################################
   ##' @author Florent Bourgeois, florent.bourgeois@@ensiacet.fr
-  ##' @author Laboratoire de Génie Chimique, Toulouse, FRANCE (\url{http://www.lgc.cnrs.fr})
-  ##' @references Bourgeois, F. Teychené, S. and Biscans, B., 2017....
+  ##' @author Laboratoire de Genie Chimique, Toulouse, FRANCE (\url{http://www.lgc.cnrs.fr})
+  ##' @references Bourgeois, F. Teychene, S. and Biscans, B., Applicability of probabilistic 
+  ##' nucleation modelling for analysis of microfluidics data, KONA Powder and Particle Journal, 35, 2018.
   ##' @keywords nucleation modelling
   # Auteur: F. Bourgeois
   # Derni?re mise ? jour: 17.03.2017

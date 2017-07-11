@@ -43,12 +43,13 @@ with nboot = 1000 typically.
 \cr The function outputs the results in filename_in_nboot.csv.
 }
 \references{
-Bourgeois, F. Teychené, S. and Biscans, B., 2017....
+Bourgeois, F. Teychene, S. and Biscans, B., Applicability of probabilistic 
+nucleation modelling for analysis of microfluidics data, KONA Powder and Particle Journal, 35, 2018.
 }
 \author{
 Florent Bourgeois, florent.bourgeois@ensiacet.fr
 
-Laboratoire de Génie Chimique, Toulouse, FRANCE (\url{http://www.lgc.cnrs.fr})
+Laboratoire de Genie Chimique, Toulouse, FRANCE (\url{http://www.lgc.cnrs.fr})
 }
 \keyword{modelling}
 \keyword{nucleation}

@@ -1,11 +1,10 @@
-Package: NucleationLGC
+Package: nucleation
 Type: Package
 Title: Probabilistic Nucleation Model functions
 Version: 0.1.0
-Author: Florent Bourgeois, Laboratoire de Génie Chimique
+Author: Florent Bourgeois, Laboratoire de Génie Chimique, Toulouse, France
 Maintainer: The package maintainer <florent.bourgeois@ensiacet.fr>
-Description: NucleationLGC contains a suite of functions useful for estimating and using the
-    probabilistic nucleation model.
+Description: nucleation contains a suite of functions useful for estimating and using the probabilistic nucleation model.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
