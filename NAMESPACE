@@ -4,4 +4,3 @@ export(nucl.m)
 importFrom(GenSA,GenSA)
 importFrom(minpack.lm,nls.lm)
 importFrom(neldermead,fminbnd)
-
