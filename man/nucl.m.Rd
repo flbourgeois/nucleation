@@ -4,7 +4,7 @@
 \alias{nucl.m}
 \title{Probabilistic nucleation model parameter estimation from microfluidics data.}
 \usage{
-res <- nucl.m(1000, 100, m=0.2, k0=7e-6, k=2e-4, origin=c(0,1), filename_in="S1_exp_5_60", method="SA")
+res <- nucl.m(1000, 100, m=0.2, k0=7e-6, k=2e-4, origin=c(0,1), filename_in="nucleation_example1", method="SA")
 }
 \arguments{
 \item{nboot}{Number of boostrap samples, typically 500 to 2000.Default=1000}

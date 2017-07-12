@@ -55,7 +55,7 @@ nucl.m <- function (nboot=1000, npoints_interp=100, origin, m, k0, k, filename_i
   ##' @usage
   ##'
   ##'
-  ##' res <- nucl.m(1000, 100, m=0.2, k0=7e-6, k=2e-4, origin=c(0,1), filename_in="S1_exp_5_60", method="SA")
+  ##' res <- nucl.m(1000, 100, m=0.2, k0=7e-6, k=2e-4, origin=c(0,1), filename_in="nucleation_example1", method="SA")
   # Necessaire pour que la fonction soit disponible à tous les utilisateurs
   # -----------------------------------------------------------------------
   #' @export
