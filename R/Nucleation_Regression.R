@@ -41,7 +41,7 @@ nucl.m <- function (nboot=1000, npoints_interp=100, origin, m, k0, k, filename_i
   ##' @param k Initialisation of nucleation parameter k (s-1)
   # filename_in = nom du fichier d'entr?e, de type .csv, sans l'extension .csv
   ##' @param filename_in = name of entry data file, .csv extension.
-  ##' \cr Entry data file should like this:
+  ##' \cr Entry data file should be EXACTLY like this:
   ##' \cr t;p
   ##' \cr 300;0.975
   ##' \cr 600;0.952

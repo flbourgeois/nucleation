@@ -20,7 +20,7 @@ res <- nucl.m(1000, 100, m=0.2, k0=7e-6, k=2e-4, origin=c(0,1), filename_in="S1_
 \item{k}{Initialisation of nucleation parameter k (s-1)}
 
 \item{filename_in}{= name of entry data file, .csv extension.
-\cr Entry data file should like this:
+\cr Entry data file should be EXACTLY like this:
 \cr t;p
 \cr 300;0.975
 \cr 600;0.952
